@@ -3,7 +3,7 @@ from openai import OpenAI
 import yfinance as yf
 
 # Replace "your_api_key_here" with your actual OpenAI API key
-client = OpenAI(api_key=OPEN_API_KEY)
+client = OpenAI(api_key="OPEN_API_KEY")
 
 st.title('Interactive Financial Stock Market Comparative Analysis Tool')
 
